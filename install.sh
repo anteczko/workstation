@@ -21,7 +21,7 @@ cd build
 make
 sudo make install
 
-'''
+
 #sudo apt install thunar feh
 #instal polybar dependeces
 sudo apt install build-essential git cmake cmake-data pkg-config libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev -y
@@ -33,5 +33,6 @@ cd build
 cmake ..
 make -j$(nproc)
 sudo make install
-
-
+'''
+#instal compton
+sudo apt-get install compton rofi feh thunar
