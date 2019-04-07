@@ -35,4 +35,10 @@ make -j$(nproc)
 sudo make install
 '''
 #instal compton
-sudo apt-get install compton rofi feh thunar
+sudo apt-get install compton rofi feh thunar gnome-terminal imagemagick
+
+mkdir ~/.config/i3
+mkdir ~/.config/polybar
+
+cp ~/Nier-Automata-Rice/configs/config ~/.config/i3/config
+cp ~/Nier-Automata-Rice/configs/polybar_config ~/.config/polybar/config
