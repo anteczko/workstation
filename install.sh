@@ -40,5 +40,13 @@ sudo apt-get install compton rofi feh thunar gnome-terminal imagemagick
 mkdir ~/.config/i3
 mkdir ~/.config/polybar
 
+cd ~
+git clone https://github.com/anteczko/Nier-Automata-Rice.git
+
 cp ~/Nier-Automata-Rice/configs/config ~/.config/i3/config
 cp ~/Nier-Automata-Rice/configs/polybar_config ~/.config/polybar/config
+
+mkdir ~/.fonts
+cp ~/Nier-Automata-Rice/fonts/* ~/.fonts/
+fc-cache -f -v
+
