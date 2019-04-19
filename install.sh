@@ -33,7 +33,7 @@ cd build
 cmake ..
 make -j$(nproc)
 sudo make install
-'''
+
 #instal compton
 sudo apt-get install compton rofi feh thunar gnome-terminal imagemagick
 
@@ -49,4 +49,10 @@ cp ~/Nier-Automata-Rice/configs/polybar_config ~/.config/polybar/config
 mkdir ~/.fonts
 cp ~/Nier-Automata-Rice/fonts/* ~/.fonts/
 fc-cache -f -v
+
+cd ~/Nier-Automata-Rice/themes/
+unzip oomox-Pure-Light.zip
+sudo mv oomox-Pure-Light /usr/share/themes/
+cp -r ~/Nier-Automata-Rice/themes/oomox-3024.yml/ ~/.icons/
+'''
 
